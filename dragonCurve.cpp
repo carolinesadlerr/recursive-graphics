@@ -11,18 +11,7 @@ std::string drawCurve(int n){
       return "F" + subLineX(n);
 }
 
-std::string subLineX(int n){
-      // base case
-      if (n == 1) {
-            return "";
-      }
-      // this is where we call the recursive method
-      else {
-            std::string X = subLineX(n-1);
-            std::string Y = subLineY(n-1);
-            return X + "+" + Y + "F" + "+";
-      }
-}
+
 
 std::string subLineY(int n){
       // base case
