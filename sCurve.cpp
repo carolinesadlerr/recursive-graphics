@@ -15,7 +15,7 @@ std::string drawCurve(int n){
 }
 
 std::string subLineA(int n){
-      // base case
+      // base case left side
       if (n == 0) {
             return "F ";
       }
@@ -28,7 +28,7 @@ std::string subLineA(int n){
 }
 
 std::string subLineB(int n){
-      // base case
+      // base case right side
       if (n == 0) {
             return "F ";
       }
