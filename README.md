@@ -3,7 +3,8 @@ Fractals are geometric figures in which each part has the same statistical chara
 In order to further test our understanding of fractals and L-Systems, we also created functions for the following fractals: Dragon Curve, Sierpinski Curve, and Koch Curve. 
 
 ## l-system-plotter.py
-This is a python file used to visualize the C++ files. This is where the L-system commands are read and instruct a "turtle" to move and draw a line creating the fractal. In   order to use this file you must import matplotlib as mpl, import matplotlib.pyplot as plt, import matplotlib.colors as mcolors. In addition, import sys, from math import pi, sin, cos, and from math import isnan.<br/> In order the run this and output a file you must enter:<br/> '''python3 l-system-plotter.py l-system.txt <output file name> <degree of turn>''' 
+This is a python file used to visualize the C++ files. This is where the L-system commands are read and instruct a "turtle" to move and draw a line creating the fractal. In   order to use this file you must import matplotlib as mpl, import matplotlib.pyplot as plt, import matplotlib.colors as mcolors. In addition, import sys, from math import pi, sin, cos, and from math import isnan.<br/> In order the run this and output a file you must enter:<br/> 
+```python3 l-system-plotter.py l-system.txt <output file name> <degree of turn>``` 
   
 ## Koch Snowflake
 This cpp file writes commands to a text file to produce the Koch Snowflake fractal. The libraries needed in order to run this are string, iostream, fstream, and cmath. 
