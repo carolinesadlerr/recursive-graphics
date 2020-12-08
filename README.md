@@ -46,7 +46,7 @@ This cpp file writes commands to a text file to produce the Dragon Curve fractal
 
 After, run this command: 
 
-```python3 l-system-plotter.py l-system.txt <output file name> 60``` in order to visualize the fractal. 
+```python3 l-system-plotter.py l-system.txt <output file name> 90``` in order to visualize the fractal. 
   
 
 ## Sierpinski Curve
@@ -66,5 +66,5 @@ This cpp file writes commands to a text file to produce the Koch curve fractal. 
 
 After, run this command: 
 
-```python3 l-system-plotter.py l-system.txt <output file name> 60``` in order to visualize the fractal. 
+```python3 l-system-plotter.py l-system.txt <output file name> 90``` in order to visualize the fractal. 
   
