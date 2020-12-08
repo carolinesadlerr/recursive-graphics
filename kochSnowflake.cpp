@@ -8,6 +8,7 @@ std::string drawFlake(int n);
 std::string drawSnowflake(int n){
       // draw starting point
       // appends commands from recursive call to string
+      //starts with equilateral triangle
       return drawFlake(n) + "- - " + drawFlake(n) + "- - " + drawFlake(n);
 }
 
@@ -16,9 +17,10 @@ std::string drawFlake(int n){
       if (n == 0) {
             return "F ";
       }
-      //recursive call//if not 0 call
+      //recursive call//if not last iteration continue splitting into 4 parts
       else {
             std::string subFlake = drawFlake(n-1);
+            //appends 4 different lines together to create full fractal
             return subFlake + "+ " + subFlake + "- - " + subFlake + "+ " + subFlake;
       }
 }
