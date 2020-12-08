@@ -10,15 +10,16 @@ std::string drawCurve(int n){
       // draw starting curve
       return "F" + subLineX(n);
 }
-
 std::string subLineX(int n){
-      // base case
+      // base case 
       if (n == 1) {
             return "";
       }
       // this is where we call the recursive method
       else {
+            //create left side of the curve
             std::string X = subLineX(n-1);
+            //create right side of the curve
             std::string Y = subLineY(n-1);
             return X + "+" + Y + "F" + "+";
       }
