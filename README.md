@@ -36,6 +36,8 @@ After, run this command:
 
 ```python3 l-system-plotter.py l-system.txt <output file name> 120``` in order to visualize the fractal.
   
+  
+  
 # Additional Fractals
 The following information is about the additional fractals we implemented: Dragon Curve, Sierpinski Curve, and Koch Curve.
 ## Dragon Curve
