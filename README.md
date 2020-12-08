@@ -14,9 +14,9 @@ After, run this command:
   
 ## Hilbert Curve
 This cpp file writes commands to a text file to produce the Hilbert Curve fractal. The libraries needed in order to run this are string, iostream, fstream, and cmath. 
-When compiling this file you should use this command: 
+When compiling this file you should use this command: <br/>
 ```g++ HilbertCurve.cpp -o hCurve && ./hCurve <amount of iterations>```
-After, run this command: 
+After, run this command: <br/>
 ```python3 l-system-plotter.py l-system.txt <output file name> 90``` in order to visualize the fractal. 
   
 
