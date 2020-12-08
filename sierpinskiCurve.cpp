@@ -50,8 +50,9 @@ void save(std::string filename, std::string Lsystem){
 
 
 int main(int argc, char **argv){
-      //amount of times it goes
+      //amount of times it iterates
       int n = std::stoi(argv[1]);
       std::string Lsystem = drawCurve(n);
+      //save the text file
       save("l-system.txt", Lsystem);
 }
