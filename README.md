@@ -11,7 +11,7 @@ This cpp file writes commands to a text file to produce the Hilbert Curve fracta
   
 
 ##Sierpinski Triangle##
-This cpp file writes commands to a text file to produce the Sierpinski Triangle fractal. The libraries needed in order to run this are string, iostream, fstream, and cmath. When compiling this file you should use this command: g++ SierpinskiTriangle.cpp -o sTriangle && ./sTriangle <amount of iterations>. After, run this command: python3 l-system-plotter.py l-system.txt <output file name> 60 in order to visualize the fractal. 
+This cpp file writes commands to a text file to produce the Sierpinski Triangle fractal. The libraries needed in order to run this are string, iostream, fstream, and cmath. When compiling this file you should use this command: g++ SierpinskiTriangle.cpp -o sTriangle && ./sTriangle <amount of iterations>. After, run this command: python3 l-system-plotter.py l-system.txt <output file name> 120 in order to visualize the fractal. 
   
 
 ##Dragon Curve##
