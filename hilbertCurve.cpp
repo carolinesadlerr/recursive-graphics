@@ -12,9 +12,10 @@ std::string drawCurve(int n){
       return subLineA(n);
 }
 
+// left side of the curve
 std::string subLineA(int n){
       // base case
-      if (n == 1) {
+      if (n == 0) {
             return "";
       }
       // if not on last iteration create left and right sides & attach them together
@@ -26,9 +27,10 @@ std::string subLineA(int n){
       }
 }
 
+// right side of the curve
 std::string subLineB(int n){
       // base case
-      if (n == 1) {
+      if (n == 0) {
             return "";
       }
       // this is where we call the recursive method
