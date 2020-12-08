@@ -8,15 +8,21 @@ This is a python file used to visualize the C++ files. This is where the L-syste
 ## Koch Snowflake
 This cpp file writes commands to a text file to produce the Koch Snowflake fractal. The libraries needed in order to run this are string, iostream, fstream, and cmath. 
 When compiling this file you should use this command: 
+
 ```g++ kochSnowflake.cpp -o ksnowflake && ./ksnowflake <amount of iterations>```
+
 After, run this command: 
+
 ```python3 l-system-plotter.py l-system.txt <output file name> 60``` in order to visualize the fractal.
   
 ## Hilbert Curve
 This cpp file writes commands to a text file to produce the Hilbert Curve fractal. The libraries needed in order to run this are string, iostream, fstream, and cmath. 
 When compiling this file you should use this command: 
+
 ```g++ HilbertCurve.cpp -o hCurve && ./hCurve <amount of iterations>```
+
 After, run this command: 
+
 ```python3 l-system-plotter.py l-system.txt <output file name> 90``` in order to visualize the fractal. 
   
 
@@ -34,21 +40,30 @@ After, run this command:
 The following information is about the additional fractals we implemented: Dragon Curve, Sierpinski Curve, and Koch Curve.
 ## Dragon Curve
 This cpp file writes commands to a text file to produce the Dragon Curve fractal. The libraries needed in order to run this are string, iostream, fstream, and cmath. When compiling this file you should use this command: 
+
 ```g++ DragonCurve.cpp -o dCurve && ./dCurve <amount of iterations>```
+
 After, run this command: 
+
 ```python3 l-system-plotter.py l-system.txt <output file name> 60``` in order to visualize the fractal. 
   
 
 ## Sierpinski Curve
 This cpp file writes commands to a text file to produce the Sierpinski Curve fractal. The libraries needed in order to run this are string, iostream, fstream, and cmath. When compiling this file you should use this command: 
+
 ```g++ SierpinskiCurve.cpp -o sCurve && ./sCurve <amount of iterations>```
+
 After, run this command: 
+
 ```python3 l-system-plotter.py l-system.txt <output file name> 60``` in order to visualize the fractal. 
   
 
 ## Koch Curve 
 This cpp file writes commands to a text file to produce the Koch curve fractal. The libraries needed in order to run this are string, iostream, fstream, and cmath. When compiling this file you should use this command: 
+
 ```g++ kochCurve.cpp -o kCurve && ./kCurve <amount of iterations>``` 
+
 After, run this command: 
+
 ```python3 l-system-plotter.py l-system.txt <output file name> 60``` in order to visualize the fractal. 
   
